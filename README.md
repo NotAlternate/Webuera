@@ -1,20 +1,20 @@
-# Konstruera: Site builder..?
+# Webuera - Konstruera for the Web: Site constructor.
 
-![GitHub top language](https://img.shields.io/github/languages/top/NotAlternate/Konstruera?color=FFFF70&style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/NotAlternate/Konstruera?color=FFFF70&style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NotAlternate/Konstruera?color=FFFF70&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/NotAlternate/Webuera?color=FFFF70&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/NotAlternate/Webuera?color=FFFF70&style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NotAlternate/Webuera?color=FFFF70&style=flat-square)
 
-Konstruera is a tool created by me to aid me build [notalternate.github.io](https://notalternate.github.io).
+Webuera is a tool created by me to aid me build [notalternate.github.io](https://notalternate.github.io).
 However sharing is caring, so this tool is open-source I guess..
 
-<p align="center"><img alt="Konstruera banner" src="./banner.png"></p>
+<p align="center"><img alt="Webuera banner" src="./banner.png"></p>
 
-*Banner of Konstruera's short description and logo.*
+*Banner of Webuera's short description and logo.*
 
 ## Prerequisites
 
 If you are running a Windows NT system, WSL (Windows Subsystem for Linux) is recommended.
-Although Konstruera should work in NT systems, it is not tested.<br>
+Although Webuera should work in NT systems, it is not tested.<br>
 However, if you are using MacOS or (any) Linux (distro), you can continue the installation process.
 
 \* It is recommended to install the Rust programming language via ([Rustup](https://rustup.rs))
@@ -27,17 +27,17 @@ However, if you are using MacOS or (any) Linux (distro), you can continue the in
 
 ## Installation (unstable)
 
-Currently, there are no stable releases of Konstruera, cloning the repository directly will give you the in-development or unstable version.
+Currently, there are no stable releases of Webuera, cloning the repository directly will give you the in-development or unstable version.
 Proceed if you are alright with it.
 
 #### CLONING, BUILDING AND INSTALLING
 
 1. Clone the repository via any option in the "**<> Code**" tab, which can be found on the top of the GitHub repository's page.
-2. Run the following command in the `./Konstruera/` directory (The cloned repository, replace if you cloned under a different name).
+2. Run the following command in the `./Webuera/` directory (The cloned repository, replace if you cloned under a different name).
 ```sh
 $ cargo build --release; cargo install --path .
 ```
-3. Konstruera should be compiled as an executable inside the `./target/release/` directory and installed to your Cargo binaries.
+3. Webuera should be compiled as an executable inside the `./target/release/` directory and installed to your Cargo binaries.
 
 ## Contributing
 
@@ -47,4 +47,4 @@ After a pull request, please be patient for me to review and manage conflicts.
 
 ## Repository license
 
-The Konstruera tool repository owned by NotAlternate is licensed under the [MIT](LICENSE) license.
+The Webuera tool repository owned by NotAlternate is licensed under the [MIT](LICENSE) license.

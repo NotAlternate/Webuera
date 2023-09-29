@@ -1,5 +1,5 @@
 use std::{process::exit, env};
-use konstruera::*;
+use webuera::*;
 
 fn main() {
     let args = env::args().collect::<Vec<String>>();
@@ -7,11 +7,11 @@ fn main() {
         _ => { let mut index = 1; while index < args.len() { match args[index].as_str() {
             // Commands
             cmds if cmd !=2=> { cmd=1; match cmds {
-                "build" => { match vec!["konstruera.config", "source/", "template/"].iter().all(|required| utility::check(required)) {
+                "build" => { match vec!["webuera.config", "source/", "template/"].iter().all(|required| utility::check(required)) {
                     false => { eprintln!("{}", strings::fetch("build.")); exit(-1); }
                     true => { /* building process will take place in a different file */ }
                 }},
-                "init" => { match vec!["konstruera.config", "source/", "template/"].iter().all(|required| utility::check(required)) {
+                "init" => { match vec!["webuera.config", "source/", "template/"].iter().all(|required| utility::check(required)) {
                     true => { eprintln!("{}", strings::fetch("build.")); exit(-1); }
                     false => { /* itialisinad process will take in a diff file */ }
                 }},

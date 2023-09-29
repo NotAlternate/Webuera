@@ -16,7 +16,7 @@ pub fn fetch(text: &str) -> String { let identifier=text.split('.').collect::<Ve
             "insufficient"=>"Insufficent number of parametres has been passed.",
         _=>{c=true;u}}),
 /*  */  "commands" => match identifier[1] {
-            "help"=>format!("\x1b[1mKonstruera {}\x1b[0m\nSite \x1b[4mbuilder\x1b[0m..?\n\nProgram parameters:\n    \x1b[1mKonstruera\x1b[0m [FLAGS]\n\nProgram flags:\n    \x1b[1m--help\x1b[0m & \x1b[1m-h\x1b[0m  ::  Shows Konstruera's description and usage.\n    \x1b[1m--version\x1b[0m & \x1b[1m-v\x1b[0m  ::  Outputs current version of Konstruera.", VERSION),
+            "help"=>format!("\x1b[1mWebuera {}\x1b[0m\nSite \x1b[4mbuilder\x1b[0m..?\n\nProgram parameters:\n    \x1b[1mWebuera\x1b[0m [FLAGS]\n\nProgram flags:\n    \x1b[1m--help\x1b[0m & \x1b[1m-h\x1b[0m  ::  Shows Webuera's description and usage.\n    \x1b[1m--version\x1b[0m & \x1b[1m-v\x1b[0m  ::  Outputs current version of Webuera.", VERSION),
             "version"=>VERSION.to_string(),
         _=>n },
 /*  */  "warning" => format!("\x1b[1;33m!!\x1b[0m {}", match identifier[1] {
